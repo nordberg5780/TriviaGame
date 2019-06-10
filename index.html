@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Trivia Game</title>
+
+		<!-- Link in CSS Files -->
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	</head>
+	<body>
+
+		<!-- Start of the game -->
+		<div id = start_container>
+			<!-- Static Game Logo -->
+			<h1 class = "logo">Bill Murray Trivia Game</h1>
+
+			<button id = start_button>Start</button>
+		</div>
+
+
+		<!-- During Gameplay Container -->
+		<div id = mid_game_container>
+			<!-- Static Game Logo -->
+			<h1 class = "logo">Bill Murray Trivia</h1>
+
+			<!-- Game Timer -->
+			<h1 id = "timer_line">Time Remaining: <span id = "timer_number">60 Seconds</span></h1>
+
+			<!-- Game Questions -->
+
+			<h1>1. In what midwestern town was Bill Murray born and raised?</h1>
+			<!-- a -->
+				<input type="radio" name="q1" value="Wilmette, Illinoi">Wilmette, Illinois 
+				<input type="radio" name="q1" value="Gary, Indiana">Gary, Indiana 
+				<input type="radio" name="q1" value="Benton Harbor, Michigan">Benton Harbor, Michigan 
+				<input type="radio" name="q1" value="Cincinnati, Ohio">Cincinnati, Ohio
+				
+
+			<h1>2. What did Bill Murray study while attending Regis University?</h1>
+			<!-- b -->
+				<input type="radio" name="q2" value="Art History">Art History 
+				<input type="radio" name="q2" value="Pre-Med">Pre-Med 
+				<input type="radio" name="q2" value="Anthropology">Anthropology 
+				<input type="radio" name="q2" value="Pre-Law">Pre-Law
+
+
+
+			<h1>3. Where did Bill Murray get his start in comedy?</h1>
+			<!-- c -->
+				<input type="radio" name="q3" value="The Laugh Factory">The Laugh Factory 
+				<input type="radio" name="q3" value="Kentucky Fried Theatre">Kentucky Fried Theatre 
+				<input type="radio" name="q3" value="Second City">Second City 
+				<input type="radio" name="q3" value="Saturday Night Liv">Saturday Night Liv
+
+
+			<h1>4. What is the name of the film in which Bill Murray had his first leading role?</h1>
+			<!-- a -->
+				<input type="radio" name="q4" value="Meatballs">Meatballs
+				<input type="radio" name="q4" value="Stripes">Stripes 
+				<input type="radio" name="q4" value="Caddyshack">Caddyshack
+				<input type="radio" name="q4" value="Tootsie">Tootsie
+			
+
+
+			<h1>5. Which of these films did Bill Murray co-write?</h1>
+			<!-- A  -->
+				<input type="radio" name="q5" value="The Razor's Edge">The Razor's Edge
+				<input type="radio" name="q5" value="Stripes">Stripes
+				<input type="radio" name="q5" value="Rushmore">Rushmore
+				<input type="radio" name="q5" value="Ghostbusters II">Ghostbusters II
+				
+			
+			<h1>6. How many times was Bill Murray married from 1980 to 2008?</h1>
+			<!-- B -->
+				<input type="radio" name="q6" value="0">0
+				<input type="radio" name="q6" value="2">2
+				<input type="radio" name="q6" value="3">3
+				<input type="radio" name="q6" value="1">1 
+				
+
+			<h1>7. Bill Murray's book "Cinderella Story" is part autobiography and part essays about which subject?</h1>
+			<!-- Golf -->
+				<input type="radio" name="q7" value="Chicago sports teams ">Chicago sports teams 
+				<input type="radio" name="q7" value="college basketball">College basketball
+				<input type="radio" name="q7" value="minor league baseball">Minor league baseball
+				<input type="radio" name="q7" value="golf">Golf
+            
+            
+            <h1>8. Bill Murray was nominated for an Academy Award for his role in which of these films?</h1>
+			<!-- B -->
+				<input type="radio" name="q8" value="Rushmore">Rushmore 
+				<input type="radio" name="q8" value="Lost in Translation">Lost in Translation
+				<input type="radio" name="q8" value="Broken Flowers">Broken Flowers 
+				<input type="radio" name="q8" value="Groundhog Day">Groundhog Day 
+
+			<h1>9. In which of the following films did Bill Murray not appear?</h1>
+			<!-- A -->
+				<input type="radio" name="q9" value="Little Miss Sunshine ">Little Miss Sunshine 
+				<input type="radio" name="q9" value="Hamlet">Hamlet 
+				<input type="radio" name="q9" value="Wild Things">Wild Things 
+				<input type="radio" name="q9" value="$Get Smart">Get Smart
+
+			<h1>10. Bill Murray studied at the Sorbonne.</h1>
+			<!-- True  -->
+				<input type="radio" name="q10" value="True">True
+				<input type="radio" name="q10" value="False">False
+            
+
+				<br>
+
+
+			<button id = done_button>Done!</button>
+
+		</div>
+
+
+
+
+		<!-- End of the game -->
+		<div id = end_container>
+			<!-- Static Game Logo -->
+			<h1 class = ""></h1>
+
+			<h1 id = "done">All Done!</h1>
+			<br>
+
+			<h1>Correct Answers: <span id = "correct_answers">0</span></h1>
+			<h1>Incorrect Answers: <span id = wrong_answers>0</span></h1>
+			<h1>Unanswered: <span id = "unanswered">0</span></h1>
+		</div>
+			
+
+
+
+		<!-- Link in jQuery -->
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+		<!-- Link in JavaScript -->
+		<script src="assets/javascript/app.js"></script>
+		
+	</body>
+</html>
